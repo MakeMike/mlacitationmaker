@@ -19,7 +19,7 @@
   }
 .sb{
     border: none;
-    outline: black;
+    background-color: #4CAF50;
 }
   /* Change background color of buttons on hover */
   .tab button:hover {
