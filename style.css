@@ -1,7 +1,7 @@
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: none;
+    border: 1px solid #ccc;
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@
   .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: none;
     border-top: none;
   }
 h1{
