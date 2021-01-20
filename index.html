@@ -1,0 +1,62 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="tab">
+            <button id="defaultOpen" class="tablinks" onclick="openTab(event, 'Title')">Title</button>
+            <button class="tablinks" onclick="openTab(event, 'Books')">Book or Journal</button>
+            <button class="tablinks" onclick="openTab(event, 'es')">Website</button>
+        </div>
+        <div id="Title" class="tabcontent">
+            <div id = "flex">
+                <h1>Title</h1>
+                <input id = "yn" placeholder="Your Full Name with Lastname">
+                <input id = "yt" placeholder="Your Teachers Name">
+                <input id = "cc" placeholder="Your Class Code or Name">
+                <input id = "d" placeholder="Date, Month, and Year">
+                <button type = "button" onClick = "createCitation()">Make Citation</button>
+            </div>
+            <p id = "pn"></p>
+
+            <p id = "pt"></p>
+
+            <p id = "pc"></p>
+
+            <p id = "pd"></p>
+        </div>
+        <div id="Books" class="tabcontent">
+            <div id = "flex">
+                <h1>Book or Journal</h1>
+                <input id = "ln" placeholder="Last Name of Author"></input>
+                <input id = "fn" placeholder="First Name of Author"></input>
+                <input id = "tob" placeholder="Title of Book"></input>
+                <input id = "loc" placeholder="Location"></input>
+                <input id = "pub" placeholder="Publisher Name"></input>
+                <input id = "pubd" placeholder="Date of Publication"></input>
+                <button type = "button" onClick = "createCitationfb()">Make Citation</button>
+            </div>
+            <br>
+            <p id = "citation"></p>
+        </div>
+        <div id="es" class="tabcontent">
+            <div id = "flex">
+                <h1>Electronic Source</h1>
+                <input id = "au" placeholder="Author Name"></input>
+                <input id = "tit" placeholder="Title"></input>
+                <input id = "tofc" placeholder="Title of Container"></input>
+                <input id = "ocont" placeholder="Other Contributors"></input>
+                <input id = "v" placeholder="Version"></input>
+                <input id = "vol" placeholder="Volume"></input>
+                <input id = "publ" placeholder="Publiser"></input>
+                <input id = "publd" placeholder="Publication Date"></input>
+                <input id = "locs" placeholder="Location, URL"></input>
+                <button type = "button" onClick = "createCitationfe()">Make Citation</button>
+            </div>
+            <p id = "citatione"></p>
+        </div>
+        <script src = "app.js"></script>
+    </body>
+    
+</html>
