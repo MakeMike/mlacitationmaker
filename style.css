@@ -5,6 +5,7 @@ h1{
 }
 body{
     background-color: #fafcf6;
+    animation: fadeEffect 1s;
 }
 .tab {
     overflow: hidden;
