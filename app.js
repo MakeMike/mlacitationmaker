@@ -48,5 +48,5 @@ function createCitationfe(){
     var publ = document.getElementById("publ").value;
     var publd = document.getElementById("publd").value;
     var locs = document.getElementById("locs").value;
-    document.getElementById("citatione").innerHTML = au + ". " +tit+ tofc + ", " + ocont + ", " + v + ", " + vol+", "+publ+", " +publd+", "+locs;
+    document.getElementById("citatione").innerHTML = au + ". " +tit+ " "+tofc + ", " + ocont + ", " + v + ", " + vol+", "+publ+", " +publd+", "+locs;
 }
