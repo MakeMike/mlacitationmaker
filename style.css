@@ -18,8 +18,8 @@
     transition: 0.3s;
   }
 .sb{
-    border: black;
-    outline: none;
+    border: none;
+    outline: black;
 }
   /* Change background color of buttons on hover */
   .tab button:hover {
